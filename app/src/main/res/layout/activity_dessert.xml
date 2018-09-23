@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".NonVeg">
+        <ImageView
+            android:id="@+id/im5"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:src="@drawable/gulab_jamun1"
+            android:background="#FFC3BCBC"/>
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/im5"
+            android:text="Watch In Youtube"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn4"
+            android:text="Gulab Jamun:-
+Ingredients:- Khoya (firmly packed), Refined flour or soojee, Baking soda, Sugar, Water, Milk (mixed with a little water), Green cardamoms (slightly crushed), Ghee, Cube of bread.
+Process:-
+With the heel of your palm or the base of a flat metal bowl, mash the khoya, so that no grains remain.
+ Mix in the flour and baking soda and knead into firm dough. You can use a food processor too.
+The dough should be firm but pliable and should not feel dry. If it does feel dry, wet your hands and work the dough again.
+Shape the dough into marble-sized balls (jamuns) that are smooth and creaseless. The shape can be round or oblong.
+Heat ghee in the kadahi till a piece of dough tossed in comes up at once.
+Lower heat and fry a cube of bread till light brown (this lowers the temperature of the ghee).
+Lift out bread and add as many jamuns as will fit in, without one touching the other.
+Keeping the heat low, fry these till a golden brown all over.
+Drain the jamuns out of the ghee, and fry the next lot, increasing the heat for a few seconds and then lowering it again before adding the jamuns.
+Keep the gulab jamuns aside till the syrup is ready.
+Mix the sugar and water and place over low heat, stirring till the sugar dissolves. Make sure it does not boil.
+Increase the heat once the sugar dissolves, and then bring mixture to a boil.
+Add the milk and water mixture and continue boiling over high flame, without stirring.
+Skim off any scum that collects on the sides of the pan.
+Cook till syrup thickens a bit. A finger dipped in slightly cold syrup should form a coating on it for a few seconds.
+Take syrup off stove and cool for a minimum of half an hour. Strain through a fine nylon sieve or muslin cloth.
+Add cardamom and bring syrup to a boil again.
+Add the fried gulab jamuns to it and put off the heat. Let jamuns soak for at least half an hour before serving.
+"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"/>
+
+    </RelativeLayout>
+</ScrollView>
